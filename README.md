@@ -17,10 +17,10 @@ Infrastructure for my financial modeling and research work, including statistica
     - `numerical/` : interpolation, numerical diff. and int.
     - `optimization/` : efficient numerical optimization routines 
     - `stats/` : hypothesis testing, regression and stats models utils 
-            - `hyptest` : hypothesis/statistical significance testing functions 
-            - `linear_models` : OLS, ridge, lasso, and other regression approaches 
-            - `stochastic` : markov chain, bayes net, and other probabilistic algorithms
-            - `timeseries` : ADF, GARCH, Engle-granger, and other time-series functions
+        - `hyptest` : hypothesis/statistical significance testing functions 
+        - `linear_models` : OLS, ridge, lasso, and other regression approaches 
+        - `stochastic` : markov chain, bayes net, and other probabilistic algorithms
+        - `timeseries` : ADF, GARCH, Engle-granger, and other time-series functions
 
 - `modeling/` : implementations of quant financial models
     - `factor/` : CAPM, Fama-French and other linear factor models
