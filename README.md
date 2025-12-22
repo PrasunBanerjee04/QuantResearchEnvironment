@@ -3,7 +3,7 @@ Infrastructure for my financial modeling and research work, including statistica
 
 ## The function of different directories 
 
-- data/ : parquet + csv files for fast loading of historical data 
+- `data/` : parquet + csv files for fast loading of historical data 
 
     - market/ : prices and other data related to financial securities and commodities
     - raw/ : unprocessed data dumped here to process and structure 
