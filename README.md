@@ -4,6 +4,7 @@ Infrastructure for my financial modeling and research work, including statistica
 ## The function of different directories 
 
 - data/ : parquet + csv files for fast loading of historical data 
+    - market/ 
 - data_connectors/ : infrastructure to pull data from web sources 
 - db/ : CRUD functionality for database and excel data storage
 - mathematics/ : implementation of computational methods to help with strategy development 
