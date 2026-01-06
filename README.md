@@ -8,7 +8,7 @@ Infrastructure for my financial modeling and research work, including statistica
     - `market/` : prices and other data related to financial securities and commodities
     - `raw/` : unprocessed data dumped here to process and structure 
 
-- `data_connectors/` : infrastructure to pull data from web sources 
+- `data_connectors/` : infrastructure to pull data from web sources and exchanges 
 
 - `db/` : CRUD functionality for database and excel data storage
 
@@ -27,7 +27,12 @@ Infrastructure for my financial modeling and research work, including statistica
     - `ml/` : routines for PCA, random forests / gradient boosters and other ML algorithms
     - `sde/` : GBM, OU and other base models for stochastic process modeling 
 
+- `signals/` : scripts for testing and storing alpha signals
+
 - `sim/` : backtesting and simulation utilities 
     - `backtest/` : robust class for both vectorized and event driven backtesting
+    - `execution/` : code for order types, VWAP/TWAP algorithms and other execution research
+    - `strats/` : Strategy algorithms partitioned by type (momentum, arb etc.)
+    - `testing/` : permutation, walk-forward, CV tests to validate backtesting logic
 
 - `vis/` : figures and visualization utils

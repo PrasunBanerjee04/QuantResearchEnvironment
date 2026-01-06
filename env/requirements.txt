@@ -1,0 +1,27 @@
+# data 
+pandas
+polars
+pyspark 
+
+# visualization
+matplotlib
+plotly
+seaborn
+
+# numerical  
+numpy
+scipy
+jax
+
+# ml
+scikit-learn
+torch
+xgboost
+catboost
+
+# infra 
+jupyter
+dotenv
+
+# external data
+fredapi
